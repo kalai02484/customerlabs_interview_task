@@ -1,8 +1,4 @@
-# React + Vite
+Notes:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Due to CORS policy, I have bypassed the Url with "https://cors-anywhere.herokuapp.com". If you are facing any issues while sending the data, please go to this link and just click temporory access.
+2. Make sure to change the webhook id in the SaveSegmentPopup.jsx (Line no. 57).
