@@ -1,0 +1,43 @@
+/* src/App.css */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#0b004e, #1d152f, #002834);
+  min-height: 100vh;
+}
+
+.App{
+  display: block;
+}
+
+.popup_btn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0px !important;
+  border: 1px solid white !important;
+  background: transparent !important;
+  color: #ffffff;
+}
+
+.offcanvas-header{
+  background: #39aebc;
+  color:#ffffff;
+}
+.cancel_btn, .remove_btn{
+  color: rgb(254, 76, 76);
+  font-weight: 600 !important;
+  text-decoration: none !important;  
+}
+
+.form_control, .form_select{
+  border-radius: 0px !important;
+}
